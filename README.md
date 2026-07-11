@@ -6,6 +6,24 @@ This project delivers an end-to-end exploratory and diagnostic data analysis of 
 
 By deep-diving into historical sales, inventory movement, marketing success, and regional logistics, this analysis provides data-driven strategies to maximize revenue, optimize supply chains, and cut down on order churn.
 
+## TOOLS USED:-
+
+### 🐍 Python: Data Cleaning & Exploratory Data Analysis (EDA)
+* **Data Preprocessing**: Handled missing values, removed duplicate entries, and treated statistical outliers using `Pandas` and `NumPy`.
+* **Feature Engineering**: Standardized text fields, structured date formats, and extracted time-based elements (e.g., month, weekday) to analyze sales seasonality.
+* **Visual Exploration**: Constructed distribution plots, correlation heatmaps, and sales curves using `Matplotlib` and `Seaborn` to isolate initial operational patterns.
+
+### 🛢️ SQL: Targeted Business Querying
+* **Performance Metrics**: Designed structured queries using `GROUP BY`, aggregation functions, and subqueries to compute monthly revenue growth, total volume, and average order values.
+* **Strategic Categorization**: Segmented products by sales volume and cancellation percentages to pinpoint top revenue-generating inventory and product health risks.
+* **Geographical Analysis**: Tracked and ranked order trends across different states and cities to highlight high-performing delivery hubs.
+
+### 📊 Power BI: Interactive Dashboarding
+* **Data Modeling**: Established clean table relationships and optimized metrics using **DAX** for seamless, fast-loading calculation of key KPIs.
+* **Executive View**: Built dynamic dashboard views displaying high-level metrics like total profit margins, order fulfillment rates, and revenue distributions.
+* **Granular Drilling**: Configured dynamic slicers allowing decision-makers to filter results by region, order status, or product line instantly.
+
+
 ### 🔍 Key Areas of Analysis
 
 * **Temporal Sales Trends**: Dissecting overall revenue, daily/monthly order volumes, and average transaction values to map seasonal demand peaks.
